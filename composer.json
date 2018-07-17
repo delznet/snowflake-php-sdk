@@ -1,0 +1,22 @@
+{
+  "name": "delz/snowflake-php-sdk",
+  "description": "snowflake php sdk",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sheawey",
+      "email": "sheawey@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0.0",
+    "grpc/grpc": ">=1.13.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
